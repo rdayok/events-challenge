@@ -2,6 +2,14 @@
 
 pragma solidity ^0.8.13;
 
+/*
+    Let's practice what we've learned about events. To do this:
+
+    Write a smart contract that defines and triggers 3-4 events
+    Index the events so that they can be easily searched
+    Capture these events in your JavaScript code
+*/
+
 contract Bank {
 
     mapping(address => uint) private balances;
